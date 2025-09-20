@@ -17,7 +17,7 @@ const handleVisitedCountries = (country) => {
     const countries = countriesData.countries;
     return (
         <div>
-            <h1>Countries: {countries.length}</h1>
+            <h1>Total Countries: {countries.length}</h1>
             <h3>Total Country Visited: {visitedCountries.length}</h3>
             
             <ol>
